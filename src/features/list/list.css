@@ -1,0 +1,39 @@
+.list-container{
+    width: 400px;
+    min-height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    text-align: center;
+}
+.list-container input.text-input{
+    padding: 5px;
+    width: 75%;
+}
+.list-container button{
+    width: 25%;
+    padding: 5px;
+    background-color: tomato;
+    color: white;
+    border: tomato 2px solid;
+}
+.list-container .list {
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    overflow-y: auto;
+
+}
+.list-container .list .item{
+    display: flex;
+    width: 100%;
+    padding: 5px 10px;
+    word-wrap: wrap;
+    word-break: break-all;
+}
+
+.list-container .list .item p{
+   width: 100%;
+}
+.list-container .list .item p.complete{
+    text-decoration: line-through;
+}
